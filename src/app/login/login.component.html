@@ -1,0 +1,19 @@
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Login</h1>
+        <form>
+            <div class="form-group">
+              <label for="exampleEmail">Email address</label>
+              <input class="email" type="email" name="email" [(ngModel)]="email" class="form-control" id="exampleEmail" aria-describedby="emailHelp">
+            </div>
+
+            <div class="form-group">
+              <label for="examplePassword">Password</label>
+              <input type="password" name="password" [(ngModel)]="password" class="form-control" id="examplePassword">
+            </div>
+
+            <button class="button" (click) = "clickedButton()">Log in</button> 
+
+        </form>
+    </div>
+  </div>
